@@ -1,0 +1,58 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+**/build/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Android / local machine
+local.properties
+*.apk
+*.aab
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / diagnostics / temporary output
+*.log
+hs_err_pid*
+compile_out*.txt
+debug-gradle-output.txt
+gradle-failing-test-info-output.txt
+gradle-run-output.txt
+parser_test_*.txt
+terminal_test_output.txt
+test_debug_output.txt
+testlog.txt
+
+# Temporary/output
+dist/
+out/
+tmp/
+temp/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip

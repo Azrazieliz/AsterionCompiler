@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AsterionCompiler" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#080808</item>
+        <item name="android:navigationBarColor">#080808</item>
+        <item name="android:windowBackground">#080808</item>
+    </style>
+
+    <style name="Theme.AsterionCompiler.Splash" parent="Theme.AsterionCompiler">
+        <item name="android:windowBackground">@color/asterion_splash_bg</item>
+        <item name="windowSplashScreenBackground">@color/asterion_splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/asterion_brand_mark</item>
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.AsterionCompiler</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+    </style>
+</resources>
